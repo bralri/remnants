@@ -1,0 +1,33 @@
+// Typography
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: fontRegular;
+    // color: $black;
+    margin: 0;
+}
+
+.w3-container {
+    h5 {
+        color: $black;
+    }
+}
+
+a {
+    font-family: fontItalic;
+    color: $black;
+    transition: ease 0.3s;
+}
+a:hover {
+    cursor: pointer;
+    opacity: 60%;
+    
+    transition: ease 0.3s;
+}
+
+figcaption {
+    font-family: fontItalic;
+    color: $black;
+    font-size: 0.9375rem;
+    opacity: 0.9;
+    margin: 1rem 0;
+}

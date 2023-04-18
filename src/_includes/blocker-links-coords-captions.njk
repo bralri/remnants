@@ -1,0 +1,72 @@
+<section id="loading">
+    <div id="loader"></div>
+</section>
+
+<div id="overlay">
+    <div id="title">
+        <p>{{ title }}</p>
+        <p>{{ date | postDate }} ~ {{ endDate | postDate }}</p><br>
+        <p>Alex Pearl, Christoph Jones, Molly Erin McCarthy</p>
+        <p>Bryan Ridpath, Phoebe Bray, Katharine Platts</p>
+        <p>Jason Urban, Leslie Mutchler</p>
+    </div>
+
+    <div class="w3-container">
+        <div id="id01" class="w3-modal" style="padding: 400px 0px 0px;">
+            <div
+                id="modal"
+                class="w3-modal-content w3-center w3-animate-opacity"
+                style="width: 375px; padding: 30px;">
+                <div class="w3-container">
+                    <h5>[WASD] & [Arrows] to move</h5>
+                    <h5>[Mouse] to look around</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="controls">
+        <a
+            href="#"
+            class="info_btn"
+            onclick="document.getElementById('id01').style.display='block'"
+            title="controls"
+            id="controls"
+            style="text-decoration: underline;">
+            Controls
+        </a>
+        <!-- <p style="color: white;">Controls: WASD or Arrows to move. Mouse to look around.</p> -->
+    </div>
+
+    <div id="links">
+        <a
+            href="/info"
+            title="Information">
+            Info
+        </a>
+        &nbsp;&nbsp;
+        <a 
+            href="https://archive.cloudshelter.space/" 
+            title="Archive"
+            target="_blank"
+            rel="noopener">
+            Archive
+        </a>
+        &nbsp;&nbsp;
+        <a
+            href="https://www.instagram.com/cloud.shelter"
+            title="Instagram"
+            target="_blank"
+            rel="noopener">
+            Instagram
+        </a>
+    </div>
+</div>
+
+<div class="coordinates" id="coordinates">
+    <p class="co-ord"></p>
+</div>
+
+<div id="artwork-caption">
+    <p></p>
+</div>
